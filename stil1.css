@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.collage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-container {
+    margin-bottom: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.link-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.link-container a {
+    text-decoration: none;
+}
+
+.audio-container {
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+    border-radius: 8px;
+}
